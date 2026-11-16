@@ -10,6 +10,7 @@ I build inspectable projects that connect financial questions with software: tra
 | --- | --- |
 | [Financial Statement Evidence API](https://github.com/ndt0610/financial-statement-evidence-api) | Vietnamese financial-statement ingestion, source-linked evidence, deterministic calculations, and human review |
 | [Equara FinBERT](https://github.com/ndt0610/equara-finbert-egx) | Financial-news sentiment workflow with headline provenance and a clearly labeled portfolio fixture |
+| [Blockchain Balance API](https://github.com/ndt0610/blockchain-balance-api) | Read-oriented multi-chain API with CAIP-style identifiers and provider adapters |
 | [Bitcoin Regtest Transaction Demo](https://github.com/ndt0610/bitcoin-regtest-transaction-demo) | Local transaction lifecycle: UTXO selection, signing, broadcast, and confirmation |
 | [Vietnam Yield-Curve Research](https://github.com/ndt0610/ryc-vietnam-yield-curve) | A model-only bond hold/sale research prototype with explicit terminal-value assumptions |
 | [RAG Document Assistant](https://github.com/ndt0610/rag-document-assistant) | Document retrieval with page-level citations, asynchronous ingestion, and local vector storage |
