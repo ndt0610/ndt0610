@@ -10,7 +10,7 @@ Mình đang học Công nghệ Tài chính tại Học viện Công nghệ Bưu 
 
 **Một chỉ số tài chính có thể lần ngược về ô dữ liệu nào?** Dự án đọc báo cáo XLSX/PDF, chuẩn hóa dữ kiện, tính chỉ số bằng Decimal và giữ liên kết về ô nguồn hoặc vùng PDF để người dùng kiểm tra.
 
-<a href="https://github.com/ndt0610/financial-statement-evidence-api"><img src="https://raw.githubusercontent.com/ndt0610/financial-statement-evidence-api/main/docs/images/financial-evidence-source-trace.png" alt="Giao diện truy nguyên doanh thu thuần về ô nguồn trong báo cáo tài chính" width="100%"></a>
+<a href="https://github.com/ndt0610/financial-statement-evidence-api"><img src="https://raw.githubusercontent.com/ndt0610/financial-statement-evidence-api/main/docs/images/financial-evidence-source-trace.png" alt="Giao diện truy nguyên doanh thu thuần về ô nguồn trong báo cáo tài chính" width="590"></a>
 
 [Mở repository: Financial Statement Evidence API](https://github.com/ndt0610/financial-statement-evidence-api) · *Ảnh dùng bộ dữ liệu tổng hợp để minh họa truy nguyên nguồn, không phải báo cáo của doanh nghiệp thật.*
 
@@ -18,7 +18,7 @@ Mình đang học Công nghệ Tài chính tại Học viện Công nghệ Bưu 
 
 **Từ sắc thái tiêu đề đến nhãn có giải thích:** nhóm tin gần trùng, giảm trọng số tin cũ, đối chiếu giá 5 phiên và hiển thị nhánh đã kích hoạt trong bộ quy tắc thử nghiệm. Cùng repository có nghiên cứu FinBERT cho EGX và danh mục Mỹ Phase 1.
 
-<a href="https://github.com/ndt0610/equara-finbert-egx"><img src="https://raw.githubusercontent.com/ndt0610/equara-finbert-egx/main/docs/images/decision-label-etel.png" alt="Kết quả nhãn thử nghiệm Mua cho ETEL cùng điểm tin, giá 5 phiên và ngưỡng lịch sử" width="100%"></a>
+<a href="https://github.com/ndt0610/equara-finbert-egx"><img src="https://raw.githubusercontent.com/ndt0610/equara-finbert-egx/main/docs/images/decision-label-etel.png" alt="Kết quả nhãn thử nghiệm Mua cho ETEL cùng điểm tin, giá 5 phiên và ngưỡng lịch sử" width="590"></a>
 
 [Mở repository: Equara](https://github.com/ndt0610/equara-finbert-egx) · *Dự án cá nhân; có sử dụng AI coding assistants và ghi rõ phạm vi hỗ trợ. Nhãn không phải khuyến nghị giao dịch.*
 
