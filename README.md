@@ -1,35 +1,47 @@
 # Nguyễn Đình Tú
 
-**Fintech student at PTIT** interested in trustworthy financial-data applications, machine learning, and practical AI systems.
+**FinTech · Tài chính và dữ liệu · AI ứng dụng**
 
-I build inspectable projects that connect financial questions with software: traceable calculations, explicit assumptions, reproducible experiments, and interfaces that make results easier to review.
+Mình đang học Công nghệ Tài chính tại Học viện Công nghệ Bưu chính Viễn thông (PTIT). Portfolio này ghi lại cách mình biến câu hỏi tài chính thành prototype có thể chạy và kiểm tra: dữ liệu lấy từ đâu, phép tính ra sao, phần nào còn là giả định.
 
-## Featured projects
+## Bắt đầu từ hai dự án sát FinTech nhất
 
-| Project | What it demonstrates |
+### Financial Statement Evidence API
+
+**Một chỉ số tài chính có thể lần ngược về ô dữ liệu nào?** Dự án đọc báo cáo XLSX/PDF, chuẩn hóa dữ kiện, tính chỉ số bằng Decimal và giữ liên kết về ô nguồn hoặc vùng PDF để người dùng kiểm tra.
+
+<a href="https://github.com/ndt0610/financial-statement-evidence-api"><img src="https://raw.githubusercontent.com/ndt0610/financial-statement-evidence-api/main/docs/images/financial-evidence-source-trace.png" alt="Giao diện truy nguyên doanh thu thuần về ô nguồn trong báo cáo tài chính" width="100%"></a>
+
+[Mở repository: Financial Statement Evidence API](https://github.com/ndt0610/financial-statement-evidence-api) · *Ảnh dùng bộ dữ liệu tổng hợp để minh họa truy nguyên nguồn, không phải báo cáo của doanh nghiệp thật.*
+
+### Equara — FinBERT, tin–giá và danh mục đầu tư
+
+**Từ sắc thái tiêu đề đến nhãn có giải thích:** nhóm tin gần trùng, giảm trọng số tin cũ, đối chiếu giá 5 phiên và hiển thị nhánh đã kích hoạt trong bộ quy tắc thử nghiệm. Cùng repository có nghiên cứu FinBERT cho EGX và danh mục Mỹ Phase 1.
+
+<a href="https://github.com/ndt0610/equara-finbert-egx"><img src="https://raw.githubusercontent.com/ndt0610/equara-finbert-egx/main/docs/images/decision-label-etel.png" alt="Kết quả nhãn thử nghiệm Mua cho ETEL cùng điểm tin, giá 5 phiên và ngưỡng lịch sử" width="100%"></a>
+
+[Mở repository: Equara](https://github.com/ndt0610/equara-finbert-egx) · *Dự án cá nhân; có sử dụng AI coding assistants và ghi rõ phạm vi hỗ trợ. Nhãn không phải khuyến nghị giao dịch.*
+
+## Nghiên cứu tài chính và tích hợp hệ thống
+
+| Dự án | Nội dung có thể kiểm tra |
 | --- | --- |
-| [Financial Statement Evidence API](https://github.com/ndt0610/financial-statement-evidence-api) | Vietnamese financial-statement ingestion, source-linked evidence, deterministic calculations, and human review |
-| [Equara FinBERT](https://github.com/ndt0610/equara-finbert-egx) | Financial-news sentiment workflow with headline provenance and a clearly labeled portfolio fixture |
-| [Blockchain Balance API](https://github.com/ndt0610/blockchain-balance-api) | Read-oriented multi-chain API with CAIP-style identifiers and provider adapters |
-| [Bitcoin Regtest Transaction Demo](https://github.com/ndt0610/bitcoin-regtest-transaction-demo) | Local transaction lifecycle: UTXO selection, signing, broadcast, and confirmation |
-| [Vietnam Yield-Curve Research](https://github.com/ndt0610/ryc-vietnam-yield-curve) | A model-only bond hold/sale research prototype with explicit terminal-value assumptions |
-| [RAG Document Assistant](https://github.com/ndt0610/rag-document-assistant) | Document retrieval with page-level citations, asynchronous ingestion, and local vector storage |
-| [Q-learning Tic-Tac-Toe](https://github.com/ndt0610/qlearning-tic-tac-toe) | Self-play reinforcement learning, terminal-state handling, and minimax evaluation |
+| [Vietnam Yield-Curve Research](https://github.com/ndt0610/ryc-vietnam-yield-curve) | So sánh giữ/bán trái phiếu ở cùng ngày tiền mặt cuối kỳ; kết quả chạy trên kịch bản khai báo, ghi rõ giả định synthetic và độ phân biệt theo ε. |
+| [Bitcoin Regtest Transaction Demo](https://github.com/ndt0610/bitcoin-regtest-transaction-demo) | Theo dõi vòng đời giao dịch Bitcoin trên Regtest cục bộ: UTXO, ký, phát giao dịch và xác nhận. |
+| [Blockchain Balance API](https://github.com/ndt0610/blockchain-balance-api) | API đọc số dư đa chuỗi với adapter provider và định danh tài sản có cấu trúc. |
+| [RAG Document Assistant](https://github.com/ndt0610/rag-document-assistant) | Hỏi đáp trên PDF với truy xuất theo trang, xử lý ingestion bất đồng bộ và trích dẫn nguồn. |
 
-## Machine learning, algorithms, and games
+## Học máy, thuật toán và trò chơi
 
-- [Q-learning Maze](https://github.com/ndt0610/qlearning-maze) — seeded training, reward tracking, and a loop-safe greedy route.
-- [3D k-NN Explorer](https://github.com/ndt0610/knn-3d-explorer) — interactive Euclidean-distance classification and 3D visualization.
-- [Gradient-Boosted Trees Workbench](https://github.com/ndt0610/gradient-boosted-trees-workbench) — simplified gradient boosting with validation-based early stopping.
-- [N-Queens Visualizer](https://github.com/ndt0610/n-queens-visualizer) — responsive backtracking visualization.
-- [Sudoku Solver and Board](https://github.com/ndt0610/sudoku-solver-visualizer) — playable interface with an MRV-guided backtracking solver.
+- [3D k-NN Explorer](https://github.com/ndt0610/knn-3d-explorer) — khoảng cách Euclid, xếp hạng láng giềng và biểu diễn dữ liệu 3D tương tác.
+- [Gradient-Boosted Trees Workbench](https://github.com/ndt0610/gradient-boosted-trees-workbench) — xem split, gain, trọng số lá và early stopping trong mô hình boosting giáo dục.
+- [Q-learning Maze](https://github.com/ndt0610/qlearning-maze) — huấn luyện Q-table có seed, theo dõi reward và kiểm tra đường đi greedy.
+- [Q-learning Tic-Tac-Toe](https://github.com/ndt0610/qlearning-tic-tac-toe) — self-play, reward trạng thái kết thúc và đối chiếu với minimax.
+- [N-Queens Visualizer](https://github.com/ndt0610/n-queens-visualizer) — quay lui có quan sát tiến trình đặt/hủy hậu.
+- [Sudoku Solver and Board](https://github.com/ndt0610/sudoku-solver-visualizer) — bàn chơi tương tác và solver dùng heuristic MRV.
 
-## Working toolkit
+## Công cụ thể hiện qua dự án
 
-Python · FastAPI · Streamlit · pandas · scikit-learn · PyTorch · Java · SQL · JavaScript · React · Vite · Pygame
+Python · SQL · Excel · Power BI · FastAPI · pandas · scikit-learn · Transformers/FinBERT · JavaScript · React · Streamlit · Pygame
 
-These tools are represented through projects; this list is not a claim of production experience with every item.
-
-## Project notes
-
-Each repository documents how to run it, the evidence behind its results, and what the current version does not establish. Synthetic examples, pretrained-model output, and exploratory research are labeled in context. Financial and market-related projects are educational prototypes, not investment advice.
+Đây là các công cụ xuất hiện trong prototype và bài tập; danh sách không hàm ý kinh nghiệm vận hành hệ thống production. Dự án cá nhân và bài tập học phần được gắn nhãn riêng; hỗ trợ AI coding được ghi rõ tại repository liên quan.
