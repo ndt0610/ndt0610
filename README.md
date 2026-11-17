@@ -1,14 +1,14 @@
 # Nguyễn Đình Tú
 
-**FinTech · Tài chính và dữ liệu · AI ứng dụng**
+**Công nghệ Tài chính (PTIT) · Phân tích tài chính · Dữ liệu số**
 
-Mình đang học Công nghệ Tài chính tại Học viện Công nghệ Bưu chính Viễn thông (PTIT). Portfolio này ghi lại cách mình biến câu hỏi tài chính thành prototype có thể chạy và kiểm tra: dữ liệu lấy từ đâu, phép tính ra sao, phần nào còn là giả định.
+Mình đang chuẩn bị thực tập trong mảng phân tích nghiệp vụ, vận hành dữ liệu hoặc ngân hàng số. Portfolio tập trung vào những việc có thể kiểm tra trong dự án: dữ liệu lấy từ đâu, cách xử lý ra sao và phần nào vẫn là giả định. Bài tập học phần và dự án cá nhân được ghi riêng.
 
-## Bắt đầu từ hai dự án sát FinTech nhất
+## Hai dự án nên xem trước
 
 ### Financial Statement Evidence API
 
-**Một chỉ số tài chính có thể lần ngược về ô dữ liệu nào?** Dự án đọc báo cáo XLSX/PDF, chuẩn hóa dữ kiện, tính chỉ số bằng Decimal và giữ liên kết về ô nguồn hoặc vùng PDF để người dùng kiểm tra.
+**Một chỉ số trên màn hình truy ngược về dòng nào trong báo cáo?** Prototype đọc XLSX/PDF, giữ vị trí nguồn cho dữ kiện và tính toán để người xem kiểm tra căn cứ.
 
 <a href="https://github.com/ndt0610/financial-statement-evidence-api"><img src="https://raw.githubusercontent.com/ndt0610/financial-statement-evidence-api/main/docs/images/financial-evidence-source-trace.png" alt="Giao diện truy nguyên doanh thu thuần về ô nguồn trong báo cáo tài chính" width="590"></a>
 
@@ -16,17 +16,17 @@ Mình đang học Công nghệ Tài chính tại Học viện Công nghệ Bưu 
 
 ### Equara — FinBERT, tin–giá và danh mục đầu tư
 
-**Từ sắc thái tiêu đề đến nhãn có giải thích:** nhóm tin gần trùng, giảm trọng số tin cũ, đối chiếu giá 5 phiên và hiển thị nhánh đã kích hoạt trong bộ quy tắc thử nghiệm. Cùng repository có nghiên cứu FinBERT cho EGX và danh mục Mỹ Phase 1.
+**Từ tiêu đề tin đến nhãn theo quy tắc có thể xem lại:** prototype dùng FinBERT pretrained, nhóm tin gần trùng và đối chiếu biến động giá 5 phiên; README giải thích từng nhánh gán nhãn. Cùng repository có nghiên cứu phản ứng tin–giá trên EGX và danh mục Mỹ Phase 1.
 
 <a href="https://github.com/ndt0610/equara-finbert-egx"><img src="https://raw.githubusercontent.com/ndt0610/equara-finbert-egx/main/docs/images/decision-label-etel.png" alt="Kết quả nhãn thử nghiệm Mua cho ETEL cùng điểm tin, giá 5 phiên và ngưỡng lịch sử" width="590"></a>
 
 [Mở repository: Equara](https://github.com/ndt0610/equara-finbert-egx) · *Dự án cá nhân; có sử dụng AI coding assistants và ghi rõ phạm vi hỗ trợ. Nhãn không phải khuyến nghị giao dịch.*
 
-## Nghiên cứu tài chính và tích hợp hệ thống
+## Dữ liệu tài chính và hệ thống
 
 | Dự án | Nội dung có thể kiểm tra |
 | --- | --- |
-| [Vietnam Yield-Curve Research](https://github.com/ndt0610/ryc-vietnam-yield-curve) | So sánh giữ/bán trái phiếu ở cùng ngày tiền mặt cuối kỳ; kết quả chạy trên kịch bản khai báo, ghi rõ giả định synthetic và độ phân biệt theo ε. |
+| [Vietnam Yield-Curve Research](https://github.com/ndt0610/ryc-vietnam-yield-curve) | So sánh kịch bản giữ/bán trái phiếu; dữ liệu giả lập và các giả định được ghi trong README. |
 | [Bitcoin Regtest Transaction Demo](https://github.com/ndt0610/bitcoin-regtest-transaction-demo) | Theo dõi vòng đời giao dịch Bitcoin trên Regtest cục bộ: UTXO, ký, phát giao dịch và xác nhận. |
 | [Blockchain Balance API](https://github.com/ndt0610/blockchain-balance-api) | API đọc số dư đa chuỗi với adapter provider và định danh tài sản có cấu trúc. |
 | [RAG Document Assistant](https://github.com/ndt0610/rag-document-assistant) | Hỏi đáp trên PDF với truy xuất theo trang, xử lý ingestion bất đồng bộ và trích dẫn nguồn. |
@@ -40,8 +40,10 @@ Mình đang học Công nghệ Tài chính tại Học viện Công nghệ Bưu 
 - [N-Queens Visualizer](https://github.com/ndt0610/n-queens-visualizer) — quay lui có quan sát tiến trình đặt/hủy hậu.
 - [Sudoku Solver and Board](https://github.com/ndt0610/sudoku-solver-visualizer) — bàn chơi tương tác và solver dùng heuristic MRV.
 
-## Công cụ thể hiện qua dự án
+## Kỹ năng thể hiện qua dự án
 
-Python · SQL · Excel · Power BI · FastAPI · pandas · scikit-learn · Transformers/FinBERT · JavaScript · React · Streamlit · Pygame
+**Tài chính và dữ liệu:** phân tích BCTC · Excel · SQL · Power BI<br>
+**Phát triển prototype:** Python · FastAPI · Transformers/FinBERT · JavaScript/React · Streamlit<br>
+**Demo học máy/thuật toán:** Q-learning · k-NN · gradient boosting · backtracking
 
-Đây là các công cụ xuất hiện trong prototype và bài tập; danh sách không hàm ý kinh nghiệm vận hành hệ thống production. Dự án cá nhân và bài tập học phần được gắn nhãn riêng; hỗ trợ AI coding được ghi rõ tại repository liên quan.
+Các kỹ năng trên được thể hiện qua bài tập và prototype cá nhân, không phải kinh nghiệm vận hành production. FinBERT là mô hình pretrained; quá trình phát triển có dùng AI coding assistants và được ghi nhận trong repository Equara.
