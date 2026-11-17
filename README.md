@@ -42,7 +42,7 @@ Mình là sinh viên Công nghệ Tài chính tại PTIT, đang chuẩn bị th�
 
 Nghiên cứu mô phỏng dòng tiền trái phiếu và so sánh giữ/bán theo các kịch bản lãi suất. Demo **Perfect Foresight** riêng cho phép thay tháng bán và tỷ lệ bán, xem phân bổ dòng tiền và so với giữ đến kỳ hạn trên đường giá giả định đã biết trước. Vì đường giá được đưa vào mô hình từ đầu, kết quả là một phép so sánh kịch bản chứ không phải dự báo thị trường hay khuyến nghị giao dịch.
 
-<a href="https://github.com/ndt0610/ryc-vietnam-yield-curve/tree/main/demos/perfect-foresight"><img src="https://raw.githubusercontent.com/ndt0610/ryc-vietnam-yield-curve/main/demos/perfect-foresight/decision-summary.jpg" alt="Demo Perfect Foresight so sánh giữ trái phiếu đến hạn với các phương án bán trên lưới giả định" width="590"></a>
+<a href="https://github.com/ndt0610/ryc-vietnam-yield-curve/tree/main/demos/perfect-foresight"><img src="https://raw.githubusercontent.com/ndt0610/ryc-vietnam-yield-curve/main/demos/perfect-foresight/perfect-foresight-default-case.png" alt="Kịch bản cơ sở của demo Perfect Foresight: giữ đến H cao hơn phương án bán tốt nhất trên lưới" width="590"></a>
 
 [Mở RYC và demo Perfect Foresight](https://github.com/ndt0610/ryc-vietnam-yield-curve/tree/main/demos/perfect-foresight) · *Ảnh ghi rõ giả định đường giá biết trước; kết quả chỉ áp dụng cho lưới kịch bản đã chọn.*
 
