@@ -40,11 +40,11 @@ Mình là sinh viên Công nghệ Tài chính tại PTIT, đang chuẩn bị th�
 
 ### Vietnam Yield-Curve Research
 
-Nghiên cứu mô phỏng dòng tiền trái phiếu và so sánh giữ/bán theo các kịch bản lãi suất. Demo **Perfect Foresight** riêng cho phép thay tháng bán và tỷ lệ bán, xem phân bổ dòng tiền và so với giữ đến kỳ hạn trên đường giá giả định đã biết trước. Vì đường giá được đưa vào mô hình từ đầu, kết quả là một phép so sánh kịch bản chứ không phải dự báo thị trường hay khuyến nghị giao dịch.
+Nghiên cứu mô phỏng dòng tiền trái phiếu theo các kịch bản lãi suất. Workspace **Perfect Foresight V3** dùng Python định giá và so sánh giữ với phương án bán một/hai đợt; giao diện nêu rõ chênh lệch trong lưới, ngưỡng kinh tế và phần giá trị chỉ là model mark. Mẫu hiện tại dùng dữ liệu tổng hợp, chưa phải dự báo hay phân tích thị trường.
 
-<a href="https://github.com/ndt0610/ryc-vietnam-yield-curve/tree/main/demos/perfect-foresight"><img src="https://raw.githubusercontent.com/ndt0610/ryc-vietnam-yield-curve/main/demos/perfect-foresight/perfect-foresight-default-case.png" alt="Kịch bản cơ sở của demo Perfect Foresight: giữ đến H cao hơn phương án bán tốt nhất trên lưới" width="590"></a>
+<a href="https://github.com/ndt0610/ryc-vietnam-yield-curve/tree/main/demos/perfect-foresight"><img src="https://raw.githubusercontent.com/ndt0610/ryc-vietnam-yield-curve/main/demos/perfect-foresight/screenshots/decision-summary.png" alt="Kết luận workspace Python V3: giữ đến ngày mục tiêu đứng đầu trong lưới nhưng chênh lệch chưa vượt ngưỡng kinh tế" width="590"></a>
 
-[Mở RYC và demo Perfect Foresight](https://github.com/ndt0610/ryc-vietnam-yield-curve/tree/main/demos/perfect-foresight) · *Ảnh ghi rõ giả định đường giá biết trước; kết quả chỉ áp dụng cho lưới kịch bản đã chọn.*
+[Mở RYC và workspace Perfect Foresight V3](https://github.com/ndt0610/ryc-vietnam-yield-curve/tree/main/demos/perfect-foresight) · *Ảnh dùng fixture tổng hợp; README demo có bảng so sánh và đường cong/giá mô hình.*
 
 ## Học máy, thuật toán và trò chơi
 
