@@ -28,6 +28,7 @@ Mình là sinh viên Công nghệ Tài chính tại PTIT, đang chuẩn bị th�
 | --- | --- |
 | [Bitcoin Regtest Transaction Demo](https://github.com/ndt0610/bitcoin-regtest-transaction-demo) | Theo dõi vòng đời giao dịch Bitcoin trên Regtest cục bộ: UTXO, ký, phát giao dịch và xác nhận. |
 | [Blockchain Balance API](https://github.com/ndt0610/blockchain-balance-api) | API đọc số dư đa chuỗi với adapter provider và định danh tài sản có cấu trúc. |
+| [Thiên Đường Sách](https://github.com/ndt0610/thien-duong-sach) | Website bán sách Node.js/Express/MySQL: tìm kiếm, giỏ hàng, đơn hàng, nhập kho và luồng riêng cho admin, nhân viên, shipper. Có schema và catalog mẫu đã tách khỏi dữ liệu khách hàng; QR chuyển khoản chỉ là hình demo, MoMo cần cấu hình sandbox. |
 | [RAG Document Assistant](https://github.com/ndt0610/rag-document-assistant) | Hỏi đáp trên PDF với truy xuất theo trang, xử lý ingestion bất đồng bộ và trích dẫn nguồn. |
 
 ## Mô phỏng quyết định
