@@ -31,7 +31,17 @@ Mình là sinh viên Công nghệ Tài chính tại PTIT, đang chuẩn bị th�
 | [Thiên Đường Sách](https://github.com/ndt0610/thien-duong-sach) | Website bán sách Node.js/Express/MySQL: tìm kiếm, giỏ hàng, đơn hàng, nhập kho và luồng riêng cho admin, nhân viên, shipper. Có schema và catalog mẫu đã tách khỏi dữ liệu khách hàng; QR chuyển khoản chỉ là hình demo, MoMo cần cấu hình sandbox. |
 | [RAG Document Assistant](https://github.com/ndt0610/rag-document-assistant) | Hỏi đáp trên PDF với truy xuất theo trang, xử lý ingestion bất đồng bộ và trích dẫn nguồn. |
 
-## Nghiên cứu cơ chế tài trợ và quản trị DAO
+## Nghiên cứu cơ chế DeFi và DAO
+
+### DeFi Liquidation Contagion Lab — lây nhiễm thanh lý
+
+**Thanh lý ở giao thức A có thể khiến khoản vay ở B mất an toàn qua AMM và oracle như thế nào?** Mô hình trò chơi hai liquidator so sánh bốn quy tắc M0–M3 trên 24 kịch bản Held-out đã tiền đăng ký; hợp đồng Solidity/Hardhat local đo gas, còn dashboard Streamlit/Plotly cho xem chứng cứ và thử phản thực. Ba cơ chế thay thế giảm một số thước đo lây nhiễm nhưng tăng nợ xấu ròng; không có cơ chế thắng toàn diện.
+
+<a href="https://github.com/ndt0610/defi-liquidation-contagion-lab"><img src="https://raw.githubusercontent.com/ndt0610/defi-liquidation-contagion-lab/main/docs/images/terminal-overview.jpg" alt="Dashboard Quant DeFi Dark Terminal với sơ đồ lây nhiễm và bốn quy tắc thanh lý" width="590"></a>
+
+[Mở repository: DeFi Liquidation Contagion Lab](https://github.com/ndt0610/defi-liquidation-contagion-lab) · [Đọc báo cáo và giới hạn kết luận](https://github.com/ndt0610/defi-liquidation-contagion-lab/blob/main/REPORT.md) · *Ảnh là demo cục bộ; dữ liệu lịch sử chỉ làm nền stress, contract chưa sẵn sàng mainnet.*
+
+
 
 ### QF Collusion Hybrid — tài trợ bậc hai và hành vi chia ví
 
