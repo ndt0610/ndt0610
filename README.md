@@ -31,7 +31,15 @@ Mình là sinh viên Công nghệ Tài chính tại PTIT, đang chuẩn bị th�
 | [Thiên Đường Sách](https://github.com/ndt0610/thien-duong-sach) | Website bán sách Node.js/Express/MySQL: tìm kiếm, giỏ hàng, đơn hàng, nhập kho và luồng riêng cho admin, nhân viên, shipper. Có schema và catalog mẫu đã tách khỏi dữ liệu khách hàng; QR chuyển khoản chỉ là hình demo, MoMo cần cấu hình sandbox. |
 | [RAG Document Assistant](https://github.com/ndt0610/rag-document-assistant) | Hỏi đáp trên PDF với truy xuất theo trang, xử lý ingestion bất đồng bộ và trích dẫn nguồn. |
 
-## Mô phỏng quyết định
+## Nghiên cứu cơ chế và mô phỏng quyết định
+
+### QF Collusion Hybrid — tài trợ bậc hai và hành vi chia ví
+
+**Một người chia khoản tài trợ qua nhiều ví có thể làm lệch quỹ đối ứng đến đâu, và cơ chế giảm lệch có ảnh hưởng cộng đồng ủng hộ thật không?** Dự án dùng snapshot Grants Stack làm nền, tiêm kịch bản Sybil có nhãn và đối chứng nhóm organic để so sánh chín cơ chế QF. Demo Streamlit cho thử giả định và bảng đóng góp; Python/NetworkX xử lý đồ thị, còn Solidity/OpenZeppelin kiểm thử chi trả Merkle trên EVM cục bộ. Báo cáo giữ cả kết quả âm tính và giới hạn: dữ liệu thật không có nhãn Sybil, vault chưa triển khai công khai.
+
+<a href="https://github.com/ndt0610/qf-collusion-hybrid"><img src="https://raw.githubusercontent.com/ndt0610/qf-collusion-hybrid/main/docs/assets/demo-overview.jpeg" alt="Giao diện demo QF với thanh điều chỉnh chia ví, hệ số nén và biểu đồ matching" width="590"></a>
+
+[Mở repository: QF Collusion Hybrid](https://github.com/ndt0610/qf-collusion-hybrid) · [Xem báo cáo và giới hạn kết luận](https://github.com/ndt0610/qf-collusion-hybrid/blob/main/REPORT.md) · *Ảnh là ví dụ tương tác cục bộ, không phải đánh giá phát hiện Sybil thật.*
 
 [Surge Strike Simulator](https://github.com/ndt0610/surge-strike-simulator) là demo Web cho một tình huống vận hành nền tảng gọi xe: chiết khấu cao có thể làm thay đổi nguồn cung tài xế, số cuốc phục vụ và giá theo khu. Bản đồ 21 khu cho phép đổi kịch bản, tạo cú sốc đình công và thử thưởng hoặc giảm chiết khấu; báo cáo 20 seed so sánh các chính sách. Đây là mô hình tác nhân với dữ liệu và hành vi giả lập, không phải dữ liệu hay dự báo của Be.
 
@@ -60,6 +68,7 @@ Nghiên cứu mô phỏng dòng tiền trái phiếu theo các kịch bản lãi
 
 **Tài chính và dữ liệu:** phân tích BCTC · Excel · SQL · Power BI<br>
 **Phát triển prototype:** Python · FastAPI · Transformers/FinBERT · JavaScript/React · Streamlit<br>
+**Nghiên cứu cơ chế và EVM:** NetworkX · Solidity · Hardhat · Merkle proof<br>
 **Demo học máy/thuật toán:** Q-learning · k-NN · gradient boosting · backtracking
 
-Các kỹ năng trên được thể hiện qua bài tập và prototype cá nhân, không phải kinh nghiệm vận hành production. FinBERT là mô hình pretrained; quá trình phát triển có dùng AI coding assistants và được ghi nhận trong repository Equara.
+Các kỹ năng trên được thể hiện qua bài tập và prototype cá nhân, không phải kinh nghiệm vận hành production. FinBERT là mô hình pretrained. Quá trình phát triển Equara và QF Collusion Hybrid có dùng AI coding assistants; phạm vi hỗ trợ được ghi trong từng repository.
