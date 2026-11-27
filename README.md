@@ -93,4 +93,4 @@ Nghiên cứu mô phỏng dòng tiền trái phiếu theo các kịch bản lãi
 **Nghiên cứu cơ chế và EVM:** NetworkX · Solidity · Hardhat · Merkle proof<br>
 **Demo học máy/thuật toán:** Q-learning · k-NN · gradient boosting · backtracking
 
-Các kỹ năng trên được thể hiện qua bài tập và prototype cá nhân, không phải kinh nghiệm vận hành production. FinBERT là mô hình pretrained. Quá trình phát triển Equara, QF Collusion Hybrid và DAO Governance Lab có dùng AI coding assistants; phạm vi hỗ trợ được ghi trong từng repository.
+Các kỹ năng trên được thể hiện qua bài tập và prototype cá nhân, không phải kinh nghiệm vận hành production. FinBERT là mô hình pretrained. Quá trình phát triển Equara, DeFi Liquidation Contagion Lab, QF Collusion Hybrid và DAO Governance Lab có dùng AI coding assistants; phạm vi hỗ trợ được ghi trong từng repository.
