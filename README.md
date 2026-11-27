@@ -31,7 +31,7 @@ Mình là sinh viên Công nghệ Tài chính tại PTIT, đang chuẩn bị th�
 | [Thiên Đường Sách](https://github.com/ndt0610/thien-duong-sach) | Website bán sách Node.js/Express/MySQL: tìm kiếm, giỏ hàng, đơn hàng, nhập kho và luồng riêng cho admin, nhân viên, shipper. Có schema và catalog mẫu đã tách khỏi dữ liệu khách hàng; QR chuyển khoản chỉ là hình demo, MoMo cần cấu hình sandbox. |
 | [RAG Document Assistant](https://github.com/ndt0610/rag-document-assistant) | Hỏi đáp trên PDF với truy xuất theo trang, xử lý ingestion bất đồng bộ và trích dẫn nguồn. |
 
-## Nghiên cứu cơ chế và mô phỏng quyết định
+## Nghiên cứu cơ chế tài trợ
 
 ### QF Collusion Hybrid — tài trợ bậc hai và hành vi chia ví
 
@@ -41,11 +41,15 @@ Mình là sinh viên Công nghệ Tài chính tại PTIT, đang chuẩn bị th�
 
 [Mở repository: QF Collusion Hybrid](https://github.com/ndt0610/qf-collusion-hybrid) · [Xem báo cáo và giới hạn kết luận](https://github.com/ndt0610/qf-collusion-hybrid/blob/main/REPORT.md) · *Ảnh là ví dụ tương tác cục bộ, không phải đánh giá phát hiện Sybil thật.*
 
-[Surge Strike Simulator](https://github.com/ndt0610/surge-strike-simulator) là demo Web cho một tình huống vận hành nền tảng gọi xe: chiết khấu cao có thể làm thay đổi nguồn cung tài xế, số cuốc phục vụ và giá theo khu. Bản đồ 21 khu cho phép đổi kịch bản, tạo cú sốc đình công và thử thưởng hoặc giảm chiết khấu; báo cáo 20 seed so sánh các chính sách. Đây là mô hình tác nhân với dữ liệu và hành vi giả lập, không phải dữ liệu hay dự báo của Be.
+## Mô phỏng quyết định
+
+### Surge Strike Simulator
+
+Demo Web cho một tình huống vận hành nền tảng gọi xe: chiết khấu cao có thể làm thay đổi nguồn cung tài xế, số cuốc phục vụ và giá theo khu. Bản đồ 21 khu cho phép đổi kịch bản, tạo cú sốc đình công và thử thưởng hoặc giảm chiết khấu; báo cáo 20 seed so sánh các chính sách. Đây là mô hình tác nhân với dữ liệu và hành vi giả lập, không phải dữ liệu hay dự báo của Be.
 
 <a href="https://github.com/ndt0610/surge-strike-simulator"><img src="https://raw.githubusercontent.com/ndt0610/surge-strike-simulator/main/docs/images/surge-strike-map.jpg" alt="Bản đồ mô phỏng 21 khu với surge, trạng thái tài xế và bảng điều khiển chính sách" width="590"></a>
 
-*Mở ảnh để xem bản đồ lớn hơn; repository có thêm ảnh phần thử can thiệp và biểu đồ diễn biến mô phỏng.*
+[Mở repository: Surge Strike Simulator](https://github.com/ndt0610/surge-strike-simulator) · *Mở ảnh để xem bản đồ lớn hơn; repository có thêm ảnh phần thử can thiệp và biểu đồ diễn biến mô phỏng.*
 
 ### Vietnam Yield-Curve Research
 
