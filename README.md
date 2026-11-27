@@ -31,7 +31,7 @@ Mình là sinh viên Công nghệ Tài chính tại PTIT, đang chuẩn bị th�
 | [Thiên Đường Sách](https://github.com/ndt0610/thien-duong-sach) | Website bán sách Node.js/Express/MySQL: tìm kiếm, giỏ hàng, đơn hàng, nhập kho và luồng riêng cho admin, nhân viên, shipper. Có schema và catalog mẫu đã tách khỏi dữ liệu khách hàng; QR chuyển khoản chỉ là hình demo, MoMo cần cấu hình sandbox. |
 | [RAG Document Assistant](https://github.com/ndt0610/rag-document-assistant) | Hỏi đáp trên PDF với truy xuất theo trang, xử lý ingestion bất đồng bộ và trích dẫn nguồn. |
 
-## Nghiên cứu cơ chế tài trợ
+## Nghiên cứu cơ chế tài trợ và quản trị DAO
 
 ### QF Collusion Hybrid — tài trợ bậc hai và hành vi chia ví
 
@@ -40,6 +40,14 @@ Mình là sinh viên Công nghệ Tài chính tại PTIT, đang chuẩn bị th�
 <a href="https://github.com/ndt0610/qf-collusion-hybrid"><img src="https://raw.githubusercontent.com/ndt0610/qf-collusion-hybrid/main/docs/assets/demo-overview.jpeg" alt="Giao diện demo QF với thanh điều chỉnh chia ví, hệ số nén và biểu đồ matching" width="590"></a>
 
 [Mở repository: QF Collusion Hybrid](https://github.com/ndt0610/qf-collusion-hybrid) · [Xem báo cáo và giới hạn kết luận](https://github.com/ndt0610/qf-collusion-hybrid/blob/main/REPORT.md) · *Ảnh là ví dụ tương tác cục bộ, không phải đánh giá phát hiện Sybil thật.*
+
+### DAO Governance Lab — ủy quyền lỏng và động lực thâu tóm
+
+**Quy tắc ủy quyền có thay đổi tập trung quyền phiếu và nguy cơ thâu tóm cùng lúc?** Nghiên cứu cá nhân kết hợp ODE ba chiến lược A/D/C với mô phỏng mạng tin cậy, seed ghép cặp và đối chứng sáu quy tắc. Mẫu quan sát chỉ là VP của 832 ví đã bỏ phiếu trong một đề xuất Snapshot; mạng, hành vi và kết cục vẫn giả lập. Trong cấu hình được thử, chỉ số phân bổ và tỷ lệ thâu tóm có thể tách rời. Báo cáo ghi cả kiểm định, kết quả chưa đủ bằng chứng và giới hạn suy luận; demo chạy cục bộ bằng Python, Streamlit, SciPy, NetworkX và Plotly.
+
+<a href="https://github.com/ndt0610/dao-liquid-democracy-egt"><img src="https://raw.githubusercontent.com/ndt0610/dao-liquid-democracy-egt/main/docs/images/dao-network.png" alt="Mạng ủy quyền giả lập với chỉ số quyền phiếu và tuyến ủy quyền" width="590"></a>
+
+[Mở repository: DAO Governance Lab](https://github.com/ndt0610/dao-liquid-democracy-egt) · [Đọc báo cáo và giới hạn kết luận](https://github.com/ndt0610/dao-liquid-democracy-egt/blob/main/REPORT.md) · *Ảnh là một vòng mô phỏng, không phải dữ liệu ủy quyền thực tế của DAO.*
 
 ## Mô phỏng quyết định
 
@@ -75,4 +83,4 @@ Nghiên cứu mô phỏng dòng tiền trái phiếu theo các kịch bản lãi
 **Nghiên cứu cơ chế và EVM:** NetworkX · Solidity · Hardhat · Merkle proof<br>
 **Demo học máy/thuật toán:** Q-learning · k-NN · gradient boosting · backtracking
 
-Các kỹ năng trên được thể hiện qua bài tập và prototype cá nhân, không phải kinh nghiệm vận hành production. FinBERT là mô hình pretrained. Quá trình phát triển Equara và QF Collusion Hybrid có dùng AI coding assistants; phạm vi hỗ trợ được ghi trong từng repository.
+Các kỹ năng trên được thể hiện qua bài tập và prototype cá nhân, không phải kinh nghiệm vận hành production. FinBERT là mô hình pretrained. Quá trình phát triển Equara, QF Collusion Hybrid và DAO Governance Lab có dùng AI coding assistants; phạm vi hỗ trợ được ghi trong từng repository.
